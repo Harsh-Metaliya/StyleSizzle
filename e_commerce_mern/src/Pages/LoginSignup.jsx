@@ -16,7 +16,7 @@ const LoginSignup = () => {
   const login = async () => {
     console.log("Login function Executed", formData);
     let responseData;
-    await fetch("http://localhost:4000/login", {
+    await fetch(//Enter you port url for login, {
       method: "POST",
       headers: {
         Accept: "application/form-data",
@@ -37,7 +37,7 @@ const LoginSignup = () => {
   const signup = async () => {
     console.log("signup function Executed", formData);
     let responseData;
-    await fetch("http://localhost:4000/signup", {
+    await fetch(//Enter you port url for signup, {
       method: "POST",
       headers: {
         Accept: "application/form-data",
